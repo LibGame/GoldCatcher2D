@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c933b026bc38554d844a6d9cdceb248, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  _timeToLoadingGame: 4
+  _timeToEndGame: 1
+  _bombMoveSpeed: 1
+  _coinMoveSpeed: 1
+  _overallSpawnRate: 1
+  _maxObjectsPerSpawn: 1
+  _itemDatas:
+  - _spawnChance: 0.35
+    _objectPrefab: {fileID: 1598053007900341588, guid: d914087c4dfd5b74caac2c64381ade9d, type: 3}
+    <PoolCount>k__BackingField: 3
+  - _spawnChance: 0.799
+    _objectPrefab: {fileID: 5334587920276890186, guid: 8ba85bd89947bdd4da1bc7f59e573d47, type: 3}
+    <PoolCount>k__BackingField: 7
